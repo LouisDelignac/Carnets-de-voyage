@@ -41,6 +41,7 @@ header{
     align-items: flex-end;
     background: url(images/separateur.png) repeat-x bottom;
     min-width: 539px;
+    margin-bottom: 40px;
 }
 
 .logo{
@@ -85,7 +86,8 @@ header{
 .titles ul li a{
     font-family: Dayrom;
     font-size: 1.5rem;
-    color: black;
+    color: #000000;
+    text-transform: uppercase;
     text-decoration: none;
 }
 
@@ -94,6 +96,37 @@ header{
     color: #760001;
 }
 
-#temp{
-    margin-top: 100px;
+/* Banner */
+
+.banner{
+    width: 950px;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    background: url("images/sanfrancisco.jpg");
+    height: 219px;
+    border-radius: 6px;
+}
+
+.banner span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #00000080 ;
+    border-radius: 0 0 6px 6px;
+    padding: 0 5px 0 5px;
+}
+
+.banner span p{
+    font-size: 0.8rem;
+    color: #FFFFFF;
+}
+
+.banner span button{
+    background: url("images/fond_degraderouge.png") repeat-x left;
+    height: 29px;
+    border: 0;
+    border-radius: 3px;
+    color: #FFFFFF;
 }
