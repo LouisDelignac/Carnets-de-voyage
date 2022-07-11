@@ -40,8 +40,8 @@ header{
     justify-content: space-between;
     align-items: flex-end;
     background: url(images/separateur.png) repeat-x bottom;
-    min-width: 539px;
-    margin-bottom: 40px;
+    min-width: 950px;
+    margin-bottom: 20px;
 }
 
 .logo{
@@ -50,19 +50,19 @@ header{
 }
 
 .logo img{
-    display: inline-block;
+    display: inline;
 }
 
 .logo h1{
-    display: inline-block;
+    display: inline;
     font-family: BallparkWeiner;
-    font-size: 2.2rem;
+    font-size: 2.2em;
     margin-bottom: 0px;
 }
 
 .logo h2{
     font-family: Dayrom;
-    font-size: 1.1rem;
+    font-size: 1.1em;
     font-weight: normal;
     margin-top: -8px;
     padding-bottom: 5px;
@@ -85,7 +85,7 @@ header{
 
 .titles ul li a{
     font-family: Dayrom;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color: #000000;
     text-transform: uppercase;
     text-decoration: none;
@@ -99,13 +99,14 @@ header{
 /* Banner */
 
 .banner{
-    width: 950px;
-    margin: auto;
     display: flex;
     align-items: flex-end;
-    background: url("images/sanfrancisco.jpg");
+    margin: auto;
+    width: 950px;
     height: 219px;
+    background: url("images/sanfrancisco.jpg");
     border-radius: 6px;
+    margin-bottom: 20px;
 }
 
 .banner span{
@@ -119,7 +120,7 @@ header{
 }
 
 .banner span p{
-    font-size: 0.8rem;
+    font-size: 0.8em;
     color: #FFFFFF;
 }
 
@@ -129,4 +130,89 @@ header{
     border: 0;
     border-radius: 3px;
     color: #FFFFFF;
+}
+
+
+/* Section*/
+
+section{
+    display: flex;
+}
+
+section article{
+    margin-right: 16px;
+}
+
+section article h3{
+    display: flex;
+    align-items: center;
+    font-family: Dayrom;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+section article p{
+    text-align: justify;
+}
+
+section aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: fit-content;
+    color: #FFFFFF;
+    background-color: #706b64;
+    border-radius: 6px;
+}
+
+#bulle_aside{
+    border: #FFFFFF 10px;
+    position: relative;
+    width: 12px;
+    height: 17px;
+    top: 160px;
+    right: 141px;
+}
+
+section aside h3{
+    font-family: Dayrom;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin: 10px 10px 14px 10px;
+}
+
+section aside img{
+    width: 139px;
+    height: 116px;
+    border: #000000 1px solid;
+}
+
+section aside p{
+    text-align: justify;
+    font-size: 0.9em;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+section aside ul{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+section aside ul li{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+section aside ul li img{
+    width: 42px;
+    height: 42px;
+    border: 0;
 }
