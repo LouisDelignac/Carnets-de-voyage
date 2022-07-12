@@ -149,10 +149,20 @@ section article h3{
     font-family: Dayrom;
     font-size: 1.5em;
     font-weight: normal;
+    text-transform: uppercase;
+}
+
+section article h3 img{
+    margin-right: 10px;
 }
 
 section article p{
+    font-size: 0.9em;
     text-align: justify;
+}
+
+section article p a{
+    color: #760001;
 }
 
 section aside{
