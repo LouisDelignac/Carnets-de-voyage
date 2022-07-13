@@ -137,6 +137,7 @@ header{
 
 section{
     display: flex;
+    margin-bottom: 1em;
 }
 
 section article{
@@ -225,4 +226,59 @@ section aside ul li img{
     width: 42px;
     height: 42px;
     border: 0;
+}
+
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: url(images/separateur.png) repeat-x top;
+    min-width: 950px;
+}
+
+footer h4{
+    font-family: Dayrom;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+footer p{
+    font-size: 0.8em;
+    margin-top: 1.33em;
+}
+
+#img_list{
+    display: flex;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+#img_list li{
+    width: 69px;
+    height: 69px;
+    margin-right: 8px;
+}
+
+#img_list img{
+    border: #000000 1px solid;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+footer nav ul{
+    list-style-image: url("images/ico_liensexterne.png");
+    font-size: 0.9em;
+    margin-top: 0;
+    padding-inline-start: 17px;
+}
+
+footer nav a{
+    text-decoration: none;
+    color: #760001;
 }
