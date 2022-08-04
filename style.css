@@ -39,7 +39,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    background: url(images/separateur.png) repeat-x bottom;
+    background: url("images/separateur.png") repeat-x bottom;
     min-width: 950px;
     margin-bottom: 20px;
 }
@@ -125,15 +125,19 @@ header{
 }
 
 .banner span button{
-    background: url("images/fond_degraderouge.png") repeat-x left;
+    background: url("images/fond_degraderouge.png") repeat-x;
     height: 29px;
     border: 0;
     border-radius: 3px;
     color: #FFFFFF;
 }
 
+.banner span button:active{
+    background: url("images/fond_degraderouge_flipY.png") repeat-x;
+}
 
-/* Section*/
+
+/* Section */
 
 section{
     display: flex;
@@ -234,7 +238,7 @@ section aside ul li img{
 footer{
     display: flex;
     justify-content: space-between;
-    background: url(images/separateur.png) repeat-x top;
+    background: url("images/ico_top.png") no-repeat top, url("images/separateur.png") repeat-x top, url("images/ombre.png") repeat-x top;
     min-width: 950px;
 }
 
